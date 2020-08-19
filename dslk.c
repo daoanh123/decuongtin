@@ -101,7 +101,7 @@ q->tuoi=tuoi;
 printf("\n nhap vao diem tb ");
 scanf("%f",&diem);
 q->diemtb=diem;
-q->next=p->next;// nôi p voi q
+q->next=p->next;// nÃ´i p voi q
 p->next=q;
 
 	}
@@ -252,8 +252,6 @@ void sapxep()
 	}
 	printf("\n danh sach da duoc sap xep theo diem tb");
 }
-int main (int argc, char *argv[ ])
-{int chon;
 void ghifile()
 {
 	data x;
@@ -278,6 +276,9 @@ void docfile()
 {
 	
 }
+int main (int argc, char *argv[ ])
+{int chon;
+
 	while(1)
 	{
 		system("cls");
